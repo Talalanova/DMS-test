@@ -1,0 +1,43 @@
+.equipment-list {
+    .list-clean();
+    padding: 80px 0;
+}
+
+.equipment-item__text {
+    font-size: 18px;
+    line-height: 20px;
+    color:  rgba(0, 0, 0, 0.47);
+}
+
+.equipment-item {
+    padding: 0 30px;
+}
+
+.equipment-item--closed .equipment-item__text {
+display: none;
+}
+
+.equipment-item--open .equipment-item__text {
+    display: block;
+}
+
+.equipment-item--open {
+    background-color: @basic-grey;
+    padding: 20px 30px;
+}
+
+.equipment-item__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.equipment-item__title {
+    font-size: 36px;
+    line-height: 30px;
+    color: @sub-text;
+    margin: 17px 0;
+}
+
+.equipment-list__button {
+    border: none;
+    background-color: inherit;
+}
