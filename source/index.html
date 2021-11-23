@@ -84,10 +84,10 @@
       <div class="container">
         <h2 class="features__title">Почему именно мы?</h2>
         <ul class="features__list">
-          <li class="features__item features__item--delivery">Вы можете заказать удобную доставку на дом</li>
+          <li class="features__item features__item--delivery">Вы можете заказать&nbsp;удобную доставку на дом</li>
           <li class="features__item features__item--documents">Полный пакет документов</li>
           <li class="features__item features__item--quality">Гарантия качества</li>
-          <li class="features__item features__item--support">Специалисты всегда на связи</li>
+          <li class="features__item features__item--support">Специалисты<br> всегда на связи</li>
         </ul>
       </div>
     </section>
@@ -96,7 +96,7 @@
         <h2 class="maining-desc__title">Принцип работы</h2>
         <p class="maining-desc__text">За обработку информации владелец компьютерного ресурса получает вознаграждение в виде комиссии, назначаемой владельцем виртуальных денег, или вознаграждения в виде части эмитированной в процессе майнинга криптовалюты. Именно на этом основан один из главных принципов работы платежных систем, предусматривающих использования биткоинов и некоторых других виртуальных денег.</p>
         <ul class="equipment-list">
-          <li class="equipment-list__item equipment-item equipment-item--closed">
+          <li class="equipment-list__item equipment-item">
             <div class="equipment-item__wrapper">
               <p class="equipment-item__title">Оборудование для майнинга</p>
               <button class="equipment-list__button">
@@ -111,14 +111,14 @@
             <div class="equipment-item__wrapper">
               <p class="equipment-item__title">Оборудование для майнинга</p>
               <button class="equipment-list__button">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 11 10" fill="none">
+                <svg class="rotate-svg" xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 11 10" fill="none">
                   <path d="M5.5 10L0 0H11" fill="#a6a6a6"></path>
                 </svg>
               </button>
             </div>
             <p class="equipment-item__text">Простые схемы майнинга, которые были эффективными несколько лет назад, предусматривали наличие следующего оборудования: 2-3 видеокарт, материнской платы, процессора, оперативной и постоянной памяти, а также блока питания. Естественно, для подключения к системе требовалось установить соответствующее программное обеспечение, которое находится в свободном доступе. Важным ресурсом, который расходуется в процессе майнинга в большом количестве, выступает электроэнергия.</p>
           </li>
-          <li class="equipment-list__item equipment-item equipment-item--closed">
+          <li class="equipment-list__item equipment-item">
             <div class="equipment-item__wrapper">
               <p class="equipment-item__title">Оборудование для майнинга</p>
               <button class="equipment-list__button">
@@ -129,7 +129,7 @@
             </div>
             <p class="equipment-item__text">Простые схемы майнинга, которые были эффективными несколько лет назад, предусматривали наличие следующего оборудования: 2-3 видеокарт, материнской платы, процессора, оперативной и постоянной памяти, а также блока питания. Естественно, для подключения к системе требовалось установить соответствующее программное обеспечение, которое находится в свободном доступе. Важным ресурсом, который расходуется в процессе майнинга в большом количестве, выступает электроэнергия.</p>
           </li>
-          <li class="equipment-list__item equipment-item equipment-item--closed">
+          <li class="equipment-list__item equipment-item">
             <div class="equipment-item__wrapper">
               <p class="equipment-item__title">Оборудование для майнинга</p>
               <button class="equipment-list__button">
@@ -140,7 +140,7 @@
             </div>
             <p class="equipment-item__text">Простые схемы майнинга, которые были эффективными несколько лет назад, предусматривали наличие следующего оборудования: 2-3 видеокарт, материнской платы, процессора, оперативной и постоянной памяти, а также блока питания. Естественно, для подключения к системе требовалось установить соответствующее программное обеспечение, которое находится в свободном доступе. Важным ресурсом, который расходуется в процессе майнинга в большом количестве, выступает электроэнергия.</p>
           </li>
-          <li class="equipment-list__item equipment-item equipment-item--closed">
+          <li class="equipment-list__item equipment-item">
             <div class="equipment-item__wrapper">
               <p class="equipment-item__title">Оборудование для майнинга</p>
               <button class="equipment-list__button">
@@ -164,8 +164,9 @@
             <input class="callback-form__input callback-form__input--surname" type="text" name="surname" placeholder="Фамилия">
             <input class="callback-form__input callback-form__input--email" type="email" name="email" placeholder="Email">
             <input class="callback-form__input callback-form__input--number" type="number" name="number" placeholder="Телефон">
-          </fieldset>
+          </fieldset>          
           <button class="callback-form__button" type="submit">Отправить</button>
+          <p class="callback-form__note">*Если вы начинающий предприниматель и у Вас не достаточно средств, мы поможем в оформлении кредита на выгодных условиях.</p>
         </form>
       </div>
     </section>
@@ -213,8 +214,8 @@
       </ul>
     </div>
   </footer>
-
     <div class="modal" id="modal" aria-hidden="true">
+      <div class="modal__overlay"></div>
       <form class="modal__form" action="#" method="post">
         <fieldset class="modal__fieldset">
           <legend class="modal__legend">Заполните форму и вскоре мы с вами свяжемся</legend>
@@ -224,7 +225,7 @@
           <input class="modal__input modal__input--number" type="number" name="number" placeholder="Телефон">
         </fieldset>
         <button class="modal__button" type="submit">Отправить</button>
+      </form>
     </div>
-
   <script src="js/script.min.js"></script>
 </body>
