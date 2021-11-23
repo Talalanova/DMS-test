@@ -25,7 +25,7 @@ overlay.addEventListener('click', () => {
 
 equipmentButton.forEach(button => {
     button.addEventListener('click', () => {
-        button.parentElement.parentElement.classList.toggle('equipment-item--open');        
+        button.parentElement.parentElement.classList.toggle('equipment-item--open');
         button.lastChild.classList.toggle('rotate-svg');
     })
 })
